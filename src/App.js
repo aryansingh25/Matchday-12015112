@@ -1,7 +1,7 @@
 import "./App.css";
 import {Routes , Route} from 'react-router-dom'
 import VideoPlayer from './Video'
-import Home from './Langingpage'
+import Home from './Landingpage'
 
 function App() {
 
