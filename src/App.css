@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+.top {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 7em;
+}
+.top h1 {
+  color: #35436e;
+}
+form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  border: 1.5px solid grey;
+  width: 350px;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+input {
+  background-color: transparent;
+  width: 300px;
+  font-size: 15px;
+  color: grey;
+  border: none;
+  outline: none;
+}
+button {
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  width: 30px;
+  color: grey;
+  font-weight: 600;
+  cursor: pointer;
+}
+#matches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.match {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 385px;
+  background-color: #2d3358;
+  border-radius: 0px;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+}
+.tournament {
+  text-align: center;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+h3 {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+.players {
+  display: flex;
+  height: 60%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.player {
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
+  position: relative;
+}
+.player .flag {
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.player img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 50%;
+}
+.player h3 {
+  font-weight: 500;
+}
+.verses {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: calc(100% / 3);
+}
+.scorecard {
+  width: 100%;
+}
+.scorecard h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+input {
+  background-color: transparent;
+  width: 300px;
+  font-size: 15px;
+  color: grey;
+  border: none;
+  outline: none;
+}
+button {
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  width: 30px;
+  color: grey;
+  font-weight: 600;
+  cursor: pointer;
+}
+.scores {
+  font-size: 10px;
+  background-color: #50868d;
+  padding: 0.2rem;
+  border-radius: 2px;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 500;
+}
+.player h3 {
+  font-size: 12px;
+}
+.crown {
+  position: absolute;
+  height: 30px;
+  width: 40px;
+  top: -18px;
+}
+.crown img {
+  border-radius: 0;
+}
+.videoplayer {
+  height: 100vh;
+  width: 100vw;
+}
+#heading {
+  height: 75px;
+  font-size: 7px;
+  color: black;
+  padding: 10px;
+  justify-content: center;
+  background-color: #bcc7d0;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+h2{
+  font-size: 1em;
+}
